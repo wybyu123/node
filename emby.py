@@ -7,12 +7,12 @@ import hashlib
 import json
 
 # ========== 扫描配置 ==========
-BASE_URL = "https://emby-data.ymschh.top/每日更新/"
+BASE_URL = "https://emby-data.ymschh.top/电影/4K系列/"
 BACKUP_URLS = [
-    "https://embyxiaoya.laogl.top/每日更新/",
-    "https://emby.xiaoya.pro/每日更新/",
-    "https://emby-data.neversay.eu.org/每日更新/",
-    "https://emby.raydoom.tk/每日更新/"
+    "https://embyxiaoya.laogl.top/电影/4K系列/",
+    "https://emby.xiaoya.pro/电影/4K系列/",
+    "https://emby-data.neversay.eu.org/电影/4K系列/",
+    "https://emby.raydoom.tk/电影/4K系列/"
 ]
 
 MAX_SCAN_THREADS = 40  # GitHub Actions 的带宽和算力极大，线程可以直接拉大到 40
